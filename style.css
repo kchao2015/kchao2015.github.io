@@ -1,9 +1,37 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: url(linedpaper.png) repeat;
+	font-family: 'Droid Sans', arial;
+	color: white;
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
+
+a {
+	color: CornflowerBlue;
+}
+
+a:hover {
+	color: purple;
+}
+
+img {
+	border: 1px solid grey;
+	border-radius: 9999999px;
+	float: right;
+	height:	250px;
+}
+
+h5 {
+	font-size: 105%;
+}
+
+p, li, table {
+	line-height: 24px;
+}
+
 #wrapper {
   width: 960px;
   margin: 20px auto;
+  padding: 20px;
 }
