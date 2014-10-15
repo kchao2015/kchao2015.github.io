@@ -3,56 +3,89 @@
 <head>
   <title>Kevin Chao, MBA</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Kevin Chao</h1>
-    <p>
-      <img src="headshot.jpg">
-    </p>
-    <h2>Student</h2>
-    <h2>San Francisco, CA</h2>
-    <section>
-      <h4>About Me</h4>
-      <ul>
-        <li><a href="aboutme.html">Click Here</a></li>
-      </ul>
-    </section>
-    <section>
-      <h4>Summary</h4>
-      <p>
-        Kevin is currently a 2nd year student at the Kellogg School of Management with 5 years of experience working in product development within the tech industry.  He holds BS/MS degrees in Electrical Engineering & Computer Science from the University of California, Berkeley.
-      </p>
-    </section>
-    <section>
-      <h4>Experience</h4>
-      <section>
-        <h5>Summer Associate, McKinsey & Company</h5>
-        <p>Guided $100B+ high-tech company through major sales transformation</p>
-      </section>
-      <section>
-        <h5>Hardware Design Engineer, AMD/Nvidia</h5>
-        <p>Designed cutting-edge graphics chips for PC/laptop/mobile device markets.</p>
-      </section>
-    </section>
-    <section>
-      <h4>Skills</h4>
-      <ul>
-        <li>Analytics</li>
-        <li>Technical experience</li>
-        <li>Communication</li>
-        <li>Leadership</li>
-      </ul>
-    </section>
-    <section>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Basketball</li>
-        <li>Football</li>
-      </ul>
-    </section>
-  </div>
+  <div id="wrapper" class="container">
+    <div id="jumbo" class="jumbotron text-center" style="overflow: hidden">
+      <img src="headshot.jpg" class="img-rounded">
+      <h1>Kevin Chao</h1>
+      <h2>Student</h2>
+      <h2>San Francisco, CA</h2>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-9">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+        <section>
+          <h4 id="aboutme">About Me</h4>
+          <a href="aboutme.html" class="btn btn-primary" role="button">Click Here</a></li>
+        </section>
+        <br>
+        <section>
+          <h4 id="summary">Summary</h4>
+          <p>
+            Kevin is currently a 2nd year student at the Kellogg School of Management with 5 years of experience working in product development within the tech industry.  He holds BS/MS degrees in Electrical Engineering & Computer Science from the University of California, Berkeley.
+          </p>
+        </section>
+        <br>
+        <section>
+          <h4 id="experience">Experience</h4>
+          <section>
+            <h5>Summer Associate, McKinsey & Company</h5>
+            <p>Guided $100B+ high-tech company through major sales transformation</p>
+          </section>
+          <br>
+          <section>
+            <h5>Hardware Design Engineer, AMD/Nvidia</h5>
+            <p>Designed cutting-edge graphics chips for PC/laptop/mobile device markets</p>
+          </section>
+        </section>
+        <br>
+        <section>
+          <h4 id="skills">Skills</h4>
+          <ul>
+            <li>Analytics</li>
+            <li>Technical experience</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+          </ul>
+        </section>
+        <br>
+        <section>
+          <h4 id="hobbies">Hobbies</h4>
+          <ul>
+            <li>Basketball</li>
+            <li>Football</li>
+          </ul>
+        </section>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" role="complementary">
+        <ul class="nav bs-docs-sidenav">
+          <li class="active">
+          <a href="#aboutme">About Me</a>
+          <a href="#summary">Summary</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#hobbies">Hobbies</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

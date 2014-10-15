@@ -8,7 +8,7 @@ body {
 }
 
 a {
-	color: CornflowerBlue;
+	color: white;
 }
 
 a:hover {
@@ -16,18 +16,33 @@ a:hover {
 }
 
 img {
-	border: 1px solid grey;
-	border-radius: 9999999px;
+	border: 3px solid MidnightBlue;
+	/*border-radius: 9999999px;*/
 	float: right;
 	height:	250px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+p, li {
+	line-height: 24px;
+}
+
+table {
+	width: 50%;
 }
 
 h5 {
-	font-size: 105%;
+	font-weight: bold;
 }
 
-p, li, table {
-	line-height: 24px;
+#jumbo {
+	color: MidnightBlue;
+	background-color: LightSlateGray;
+	margin: 20px auto;
+  	padding: 20px;
+  	font-family: 'Lobster', sans-serif;
 }
 
 #wrapper {
