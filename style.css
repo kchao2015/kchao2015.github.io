@@ -37,12 +37,16 @@ h5 {
 	font-weight: bold;
 }
 
-#jumbo {
+.jumbotron {
 	color: MidnightBlue;
 	background-color: LightSlateGray;
 	margin: 20px auto;
   	padding: 20px;
-  	font-family: 'Lobster', sans-serif;
+  	font-family: 'Special Elite', sans-serif;
+}
+
+#jumbotext {
+	font-family: 'Dancing Script', sans-serif;
 }
 
 #wrapper {
