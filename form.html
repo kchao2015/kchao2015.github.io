@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- Put stuff here -->
+  <div id="wrapper" class="container">
+  	<!-- <div id="jumbo" class="jumbotron text-center"> -->
+    <form action="mailto:kchao2015@kellogg.northwestern.edu" method="get">
+    <a href="index.html" class="btn btn-primary" role="button">Home</a>
+    <!-- <form action="mailto:" method="post"> -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <h2>
+              <i class="fa fa-comment-o"></i>
+              Contact Me
+            </h2>
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address">
+          </div>
+          <div class="form-group">
+            <label for="subject">What do you need?</label>
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Questions or Comments?">
+          </div>
+          <div class="form-group">
+            <label for="body">Tell me more</label>
+            <textarea class="form-control" name="body" rows="3" placeholder="More details"></textarea> 
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
