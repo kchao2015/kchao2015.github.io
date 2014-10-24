@@ -45,6 +45,11 @@ h5 {
   	font-family: 'Special Elite', sans-serif;
 }
 
+.table-hover tbody tr:hover td, 
+.table-hover tbody tr:hover th {
+  background-color: DimGray;
+}
+
 .list-group {
 	color: black;
 }
