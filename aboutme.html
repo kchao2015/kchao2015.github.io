@@ -1,77 +1,166 @@
-<!-- Doctype -->
 <!DOCTYPE html>
 <html>
-
-<!-- Head -->
 <head>
-  <title>About Me</title>
+  <title>Kevin Chao, MBA</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
-
-<!-- Body -->
 <body>
-<div id="wrapper" class="container">
+  <div id="wrapper" class="container">
+    <div class="jumbotron text-center" style="overflow: hidden">
+      <img src="headshot.jpg" class="img-rounded">
+      <h1>Kevin Chao</h1>
+      <h2 id="jumbotext">Student</h2>
+      <h2 id="jumbotext">San Francisco, CA</h2>
+    </div>
+    
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-9">
+        <ul class="nav nav-tabs" role="tablist">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">About Me</a></li>
+          <li><a href="form.html">Contact Me</a></li>
+        </ul>
+        <h4 id="movies">Favorite movies</h4>
+        <ul class="list-group">
+          <li class="list-group-item">Gladiator</li>
+          <li class="list-group-item">The Dark Knight</li>
+          <li class="list-group-item">Shawshank Redemption</li>
+          <li class="list-group-item">Top Gun</li>
+          <li class="list-group-item">A Few Good Men</li>
+          <li class="list-group-item">The Rock</li>
+        </ul>
+        <br>
 
-		<a href="index.html" class="btn btn-primary" role="button">Home</a>
+      <!-- Tables  -->
+        <h4 id="homes">Places I've lived</h4>
+        <table class="table table-hover table-bordered">
+          <tr>
+            <th>Location</th>
+            <th># Years</th>
+          </tr>
+          <tr>
+            <td>New Haven, CT</td>
+            <td>0.2</td>
+          </tr>
+          <tr>
+            <td>Taipei, Taiwan</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Houston, TX</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Bay Area, CA</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Chicago, IL</td>
+            <td>1</td>
+          </tr>
+        </table>
+        <br>
 
-<!-- Lists -->
-		<h4>Favorite movies</h4>
-		<ul>
-			<li>Gladiator</li>
-			<li>The Dark Knight</li>
-			<li>Shawshank Redemption</li>
-			<li>Top Gun</li>
-			<li>A Few Good Men</li>
-			<li>The Rock</li>
-		</ul>
-		<br>
+        <h4 id="visits">Places I've been</h4>
+        <ul class="list-group ">
+          <li class="list-group-item">
+            <span class="badge">Too many to count</span>
+            California
+          </li>
+          <li class="list-group-item">
+            <span class="badge">Too many to count</span>
+            Texas
+          </li>
+          <li class="list-group-item">
+            <span class="badge">Too many to count</span>
+            Illinois
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Oregon
+          </li>
+          <li class="list-group-item">
+            <span class="badge">5+</span>
+            Florida
+          </li>
+          <li class="list-group-item">
+            <span class="badge">4</span>
+            New York
+          </li>
+          <li class="list-group-item">
+            <span class="badge">3</span>
+            Hawaii
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Wyoming
+          </li>
+          <li class="list-group-item">
+            <span class="badge">2</span>
+            Colorado
+          </li>
+          <li class="list-group-item">
+            <span class="badge">2</span>
+            Utah
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Alaska
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Michigan
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Washington DC
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Washington
+          </li>
+          
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Thailand
+          </li>
+          <li class="list-group-item">
+            <span class="badge">1</span>
+            Dominican Republic
+          </li>
+          <li class="list-group-item">
+            <span class="badge">Too many to count</span>
+            Taiwan
+          </li>
+          <li class="list-group-item">
+            <span class="badge">3</span>
+            Canada
+          </li>
+        </ul>
+        <br>
 
-	<!-- Tables	 -->
-		<h4>Places I've lived</h4>
-		<table class="table table-hover table-bordered">
-			<tr>
-				<th>Location</th>
-				<th># Years</th>
-			</tr>
-			<tr>
-				<td>New Haven, CT</td>
-				<td>0.2</td>
-			</tr>
-			<tr>
-				<td>Taipei, Taiwan</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				<td>Houston, TX</td>
-				<td>10</td>
-			</tr>
-			<tr>
-				<td>Bay Area, CA</td>
-				<td>15</td>
-			</tr>
-			<tr>
-				<td>Chicago, IL</td>
-				<td>1</td>
-			</tr>
-		</table>
-		<br>
-<!-- Block -->
-		<h4>That's all for now</h4>
-		<!-- Inline -->
-		<p>Stay <em>tuned</em> for <strong>more</strong> later</p>
-		</div>
-	</div>
-</div>
-
+      </div>
+      
+      <div class="col-md-3">
+        <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" role="complementary">
+        <ul class="nav bs-docs-sidenav">
+          <li class="active">
+          <a href="#movies">Favorite movies</a>
+          <a href="#homes">Places I've lived</a>
+          <a href="#visits">Places I've been</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
 </body>
-
 </html>
